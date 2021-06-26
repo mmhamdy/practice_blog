@@ -1,0 +1,41 @@
+---
+title: New post
+author: 'Mohammed Hamdy'
+date: '2021-06-27'
+slug: []
+categories: ["testing"]
+tags: ["new", "post"]
+subtitle: 'Testing blogdown'
+lastmod: '2021-06-27T01:23:04+02:00'
+description: 'This is a temporary post to test the posting process'
+page:
+  theme: wide
+upd: ''
+authorComment: ''
+hiddenFromHomePage: no
+hiddenFromSearch: no
+resources:
+  #name: featured-image
+  #src: featured-image.jpg
+  #name: featured-image-preview
+  #src: featured-image-preview.jpg
+featuredImage: ''
+featuredImagePreview: ''
+images:
+toc:
+  enable: yes
+math:
+  enable: no
+license: ''
+---
+
+Just a new post.
+
+```{r}
+summary(mtcars)
+```
+
+```{r}
+plot(mtcars$mpg)
+```
+

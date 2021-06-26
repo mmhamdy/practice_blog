@@ -1,0 +1,33 @@
+{{- $params := .Scratch.Get "params" -}}
+{{- $pageTheme := $params.Theme | default .Site.Params.Page.theme | default "classic" -}}
+
+{{ $button := $params.button}}
+{{ if eq $button.enable true }}
+<div class="post-info-share">
+    <a href="{{ $button.link }}" class="button button-big button-red">{{ $button.text }}</a>
+</div>
+{{ end }}
+
+<div class="post-share">
+    {{- partial "plugin/share.html" . -}}
+</div>
+
+{{ $authorFooter := and (eq ($params.Page.hiddenAuthor | default .Site.Params.Page.hiddenAuthor | default false) false) (eq ($params.Page.authorFooter | default .Site.Params.Page.authorFooter | default true) true)}}
+{{ if $authorFooter }}
+{{- $authorName := $params.author | default .Site.Author.name | default " " -}}
+{{- partial "block/author.html" $authorName -}}
+{{ end }}
+
+{{ $seeAlsoFooter := ($params.Page.seeAlsoFooter | default .Site.Params.Page.seeAlsoFooter | default false) }}
+{{ if and (eq $authorFooter false) $seeAlsoFooter }}
+{{- partial "block/see-also.html" . -}}
+{{ end }}
+
+{{- with .Params.tags -}}
+<div class="post-tags">
+    {{- range $index, $value := . -}}
+    {{- $tag := partialCached "function/path.html" $value $value | printf "/tags/%v" | $.Site.GetPage -}}
+    <a href="{{ $tag.RelPermalink }}" class="tag">{{ $tag.Title }}</a>
+    {{- end -}}
+</div>
+{{- end -}}

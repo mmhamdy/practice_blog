@@ -1,0 +1,19 @@
+{{- with .Paginator -}}
+<footer>
+    <nav>
+        <h3 class="display-hidden">Пагинация</h3>
+        <ul class="pagination">
+            {{ if .HasPrev }}
+            <li class="page-item">
+                <a class="page-link" aria-hidden="true" href="{{ .Prev.URL }}"><< Next</a>
+            </li>
+            {{end }}
+            {{ if .HasNext }}
+            <li class="page-item">
+                <a class="page-link" aria-hidden="true" href="{{ .Next.URL }}">Prev >></a>
+            </li>
+            {{end }}
+        </ul>
+    </nav>
+</footer>
+{{- end -}}

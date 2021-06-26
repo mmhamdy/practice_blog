@@ -1,0 +1,6 @@
+{{- $tag := cond $.IsNamedParams ($.Get "tag") "" | default "section" -}}
+{{- $tagClose := printf `</%s>` $tag -}}
+{{- $tagOpen := printf `<%s>` $tag -}}
+{{- $tagOpen | safeHTML -}}
+{{ .Inner }}
+{{- $tagClose | safeHTML -}}
