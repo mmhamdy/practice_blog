@@ -1,7 +1,7 @@
 baseURL: https://mmhamdy.netlify.app/
 defaultContentLanguage: en
 theme: uBlogger
-title: uBlogger
+title: Hypothesis Space
 enableRobotsTXT: yes
 enableGitInfo: yes
 enableEmoji: yes
@@ -35,27 +35,20 @@ languages:
           title: ''
           url: /categories/
           weight: 3
-        - identifier: documentation
-          name: Docs
-          post: ''
-          pre: ''
-          title: ''
-          url: /categories/documentation/
-          weight: 4
         - identifier: about
           name: About
           post: ''
           pre: ''
           title: ''
           url: /about/
-          weight: 5
+          weight: 4
         - identifier: github
           name: ''
           post: ''
           pre: <i class='fab fa-github fa-fw'></i>
           title: GitHub
           url: https://github.com/upagge/ublogger
-          weight: 6
+          weight: 5
     paginate: 12
     params:
       app:
@@ -64,8 +57,8 @@ languages:
         svgFavicon: ''
         themeColor: '#ffffff'
         tileColor: '#da532c'
-        title: uBlogger
-      description: About uBlogger Theme
+        title: Hypothesis Space
+      description: About Hypothesis Space
       home:
         posts:
           enable: yes
@@ -77,7 +70,7 @@ languages:
           gravatarEmail: ''
           social: yes
           subtitle: A Clean, Elegant but Advanced Hugo Theme
-          title: uBlogger | Hugo Theme
+          title: Welcome to Hypothesis Space
         rss: 10
       keywords:
         - Theme
@@ -104,12 +97,12 @@ languages:
         Codepen: ''
         Deviantart: ''
         Devto: ''
-        Discord: xxxxxxxxx
+        Discord: ''
         DockerHub: ''
         Douban: ''
         Dribbble: ''
-        Email: xxxx@xxxx.com
-        Facebook: xxxx
+        Email: ''
+        Facebook: ''
         Fivehundredpx: ''
         Flickr: ''
         Foursquare: ''
@@ -120,16 +113,14 @@ languages:
         Goodreads: ''
         Googlescholar: ''
         Hackernews: ''
-        Instagram: xxxx
+        Instagram: ''
         Jsfiddle: ''
         Keybase: ''
         Kickstarter: ''
         Lastfm: ''
         Leanpub: ''
-        Linkedin: ''
-        Mastodon:
-          id: '@xxxx'
-          prefix: https://mastodon.technology/
+        Linkedin: xxxx
+        Mastodon: ''
         Matrix: ''
         Medium: ''
         Mix: ''
@@ -149,7 +140,7 @@ languages:
         Stackoverflow: ''
         Steam: ''
         Strava: ''
-        Telegram: xxxx
+        Telegram: ''
         Thingiverse: ''
         Tumblr: ''
         Twitch: ''
@@ -164,7 +155,7 @@ languages:
         Xing: ''
         Youtubechannel: ''
         Youtubecustom: ''
-        Youtubelegacy: xxxx
+        Youtubelegacy: ''
         Zhihu: ''
     weight: 1
 params:
@@ -181,12 +172,12 @@ params:
       id: '70532758'
   cdn:
     data: jsdelivr.yml
-  comment:
+  comment: 
     commento:
       enable: no
     disqus:
       enable: no
-      shortname: ''
+      shortname: 
     enable: yes
     facebook:
       appId: ''
@@ -202,7 +193,7 @@ params:
       repo: ''
     remark42:
       enable: yes
-      host: https://comments.upagge.ru
+      host: ''
       locale: en
       site: documentation
     telegram:
@@ -216,11 +207,11 @@ params:
       siteID: ''
     utterances:
       darkTheme: github-dark
-      enable: no
+      enable: yes
       issueTerm: pathname
       label: ''
       lightTheme: github-light
-      repo: ''
+      repo: 'mmhamdy/HypothesisSpace'
     valine:
       appId: QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI
       appKey: WBmoGyJtbqUswvfLh6L8iEBr
@@ -264,7 +255,7 @@ params:
     mobileMode: auto
     title:
       logo: ''
-      name: uBlogger
+      name: Hypothesis Space
       post: ''
       pre: <i class='fas fa-pencil-alt fa-fw'></i>
   images: /logo.png
@@ -274,7 +265,7 @@ params:
     rss: 10
   page:
     code:
-      copy: yes
+      copy: no
       maxShownLines: 10
     fontawesome: yes
     fraction: yes
@@ -315,16 +306,16 @@ params:
       Evernote: no
       Facebook: yes
       Flipboard: no
-      HackerNews: yes
+      HackerNews: no
       Instapaper: no
-      Line: yes
-      Linkedin: no
+      Line: no
+      Linkedin: yes
       Mix: no
       Myspace: no
       Odnoklassniki: no
       Pinterest: no
       Pocket: no
-      Reddit: no
+      Reddit: yes
       Renren: no
       Skype: no
       Stumbleupon: no

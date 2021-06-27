@@ -29,7 +29,9 @@ math:
 license: ''
 ---
 
+{{< admonition >}}
 Just a new post.
+{{< /admonition >}}
 
 ```{r}
 summary(mtcars)
