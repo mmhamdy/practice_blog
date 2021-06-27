@@ -368,7 +368,7 @@ markup:
     renderer:
       unsafe: yes
   highlight:
-    codeFences: yes
+    codeFences: no
     guessSyntax: yes
     lineNos: no
     lineNumbersInTable: no
