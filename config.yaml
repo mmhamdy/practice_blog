@@ -370,8 +370,8 @@ markup:
   highlight:
     codeFences: yes
     guessSyntax: yes
-    lineNos: yes
-    lineNumbersInTable: yes
+    lineNos: no
+    lineNumbersInTable: no
     noClasses: no
   tableOfContents:
     endLevel: 6
