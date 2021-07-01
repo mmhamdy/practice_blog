@@ -1,8 +1,8 @@
 ---
 title: 
 date: 
-draft: false
-comments: false
+draft: true
+
 ---
 # About me
 
