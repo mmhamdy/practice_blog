@@ -2,7 +2,7 @@
 title: 
 date: 
 draft: false
-comment: false
+comments: false
 ---
 # About me
 
