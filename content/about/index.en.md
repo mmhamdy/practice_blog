@@ -2,6 +2,7 @@
 title: 
 date: 
 draft: false
+comment: false
 ---
 # About me
 
