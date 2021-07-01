@@ -1,7 +1,7 @@
 ---
 title: 
 date: 
-draft: true
+draft: false
 
 ---
 # About me
