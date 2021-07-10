@@ -61,7 +61,7 @@ languages:
       description: About Hypothesis Space
       home:
         posts:
-          enable: yes
+          enable: no
           paginate: 6
         profile:
           avatarURL: /images/avatar.png
@@ -69,7 +69,7 @@ languages:
           enable: yes
           gravatarEmail: ''
           social: yes
-          subtitle: A Clean, Elegant but Advanced Hugo Theme
+          subtitle: where ideas come from
           title: Welcome to Hypothesis Space
         rss: 10
       keywords:
