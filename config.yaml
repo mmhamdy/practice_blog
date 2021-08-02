@@ -192,7 +192,7 @@ params:
       owner: ''
       repo: ''
     remark42:
-      enable: yes
+      enable: no
       host: ''
       locale: en
       site: documentation
