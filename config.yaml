@@ -1,7 +1,7 @@
 baseURL: https://hypspace.netlify.app/
 defaultContentLanguage: en
 theme: uBlogger
-title: Hypothesis Space
+title: Test Blog
 enableRobotsTXT: yes
 enableGitInfo: yes
 enableEmoji: yes
